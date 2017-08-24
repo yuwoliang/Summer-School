@@ -1,0 +1,7 @@
+本数据库是未去除连续谱的恒星光谱数据库
+数据库中的样本数据有481维, 
+SpectralClassificationTrain.mat保存了训练集的159条样本数据和标签
+SpectralClassificationTest.mat保存了测试集的200条样本数据和标签
+标签有三列信息, 第一列是对应光谱数据的光谱型, 第二列是光谱次型, 第三列是光度型.
+
+matload_data.m是分别读取mat文件的示例文件
